@@ -10,7 +10,7 @@ paths:
     post:
       operationId: inferPdfData
       summary: |
-        MAXeb makes the call to inference service with the pdf bytes in the request. The service then extract relevant information from a LLM. This process occurs asynchronously.
+        DocMaestroEngine makes the call to inference service with the pdf bytes in the request. The service then extract relevant information from a LLM. This process occurs asynchronously.
       requestBody:
         description: Contains PDF content       
         content:
