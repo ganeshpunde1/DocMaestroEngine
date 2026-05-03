@@ -1,5 +1,7 @@
 # DocMaestroEngine
 
+DocMaestroEngine is a PDF intelligence API — you send it a document and questions, it uses AWS Textract to read the document precisely and AWS Bedrock (Claude) to understand and answer it, then returns structured results you can store and query.
+
 A Spring Boot microservice that performs AI-powered inference and OCR extraction on PDF documents using **AWS Bedrock** and **AWS Textract**.
 
 - Submit a base64-encoded PDF with one or more natural-language questions
